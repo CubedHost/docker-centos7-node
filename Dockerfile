@@ -6,6 +6,7 @@ RUN yum -y install \
     gcc-c++ \
     zip \
     unzip \
+    rsync \
     && \
     yum -y clean all
 

@@ -4,6 +4,8 @@ RUN yum -y install \
     make \
     gcc \
     gcc-c++ \
+    zip \
+    unzip \
     && \
     yum -y clean all
 

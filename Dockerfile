@@ -10,7 +10,7 @@ RUN yum -y install \
     && \
     yum -y clean all
 
-ENV NODE_VER 8.x
+ENV NODE_VER 10.x
 
 RUN curl --silent --location https://rpm.nodesource.com/setup_$NODE_VER | bash -
 RUN curl -o /etc/yum.repos.d/yarn.repo https://dl.yarnpkg.com/rpm/yarn.repo
